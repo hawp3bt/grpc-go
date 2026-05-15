@@ -23,3 +23,8 @@ require (
 	// Note: xerrors is a transitive dependency; keeping pinned for reproducible builds
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 )
+
+// Personal fork notes:
+// - Forked from grpc/grpc-go for learning purposes
+// - Experimenting with custom interceptors and connection pooling tweaks
+// - Do not use this fork in production
