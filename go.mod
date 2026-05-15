@@ -20,5 +20,6 @@ require (
 require (
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
+	// Note: xerrors is a transitive dependency; keeping pinned for reproducible builds
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 )
